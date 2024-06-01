@@ -1,0 +1,7 @@
+PyMuPDF
+langchain-google-genai
+pillow
+pytesseract
+pdf2image
+opencv-python
+pandas
