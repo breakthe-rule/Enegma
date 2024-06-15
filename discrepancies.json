@@ -1,0 +1,53 @@
+{
+    "missing_items": [
+        {
+            "Description": "Something",
+            "Documents": [
+                "PO",
+                "Invoice"
+            ]
+        },
+        {
+            "Description": "Landscaping (Design & Installation)",
+            "Documents": [
+                "Invoice"
+            ]
+        },
+        {
+            "Description": "Hardscaping (patios, walkways, retaining walls)",
+            "Documents": [
+                "GR"
+            ]
+        }
+    ],
+    "quantity_mismatch": [
+        {
+            "Description": "Lawn maintenance Irrigation system installation & Weeding",
+            "Quantities": {
+                "PO": 1.0,
+                "GR": 2.0,
+                "Invoice": 1.0
+            }
+        }
+    ],
+    "price_mismatch": [
+        {
+            "Description": "Lawn maintenance Irrigation system installation & Weeding",
+            "Prices": {
+                "PO": 1800.0,
+                "GR": 3600.0,
+                "Invoice": 1800.0
+            }
+        }
+    ],
+    "totalprice_mismatch": [
+        {
+            "Description": "Lawn maintenance Irrigation system installation & Weeding",
+            "Totalprices": {
+                "PO": 1800.0,
+                "GR": 3600.0,
+                "Invoice": 1800.0
+            }
+        }
+    ]
+}
